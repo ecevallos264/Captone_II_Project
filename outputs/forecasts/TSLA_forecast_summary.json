@@ -1,0 +1,11 @@
+{
+  "ticker": "TSLA",
+  "last_close": 449.7200012207031,
+  "predicted_next_close": 425.0776142251455,
+  "predicted_daily_return": -0.05479495447983021,
+  "estimated_daily_volatility": 0.03174271631953363,
+  "forecast_days": 30,
+  "final_day_5th_percentile": 59.2691212618634,
+  "final_day_50th_percentile": 80.14375389898211,
+  "final_day_95th_percentile": 111.75349069609051
+}

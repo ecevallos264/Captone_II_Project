@@ -1,0 +1,11 @@
+{
+  "ticker": "NVDA",
+  "last_close": 186.4899139404297,
+  "predicted_next_close": 158.37698654272936,
+  "predicted_daily_return": -0.15074770964117887,
+  "estimated_daily_volatility": 0.023784310900652427,
+  "forecast_days": 30,
+  "final_day_5th_percentile": 1.0502737661308856,
+  "final_day_50th_percentile": 1.350073996888013,
+  "final_day_95th_percentile": 1.7812613968556688
+}

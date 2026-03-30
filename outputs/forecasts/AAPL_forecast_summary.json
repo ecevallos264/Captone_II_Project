@@ -1,11 +1,11 @@
 {
   "ticker": "AAPL",
   "last_close": 271.6058349609375,
-  "predicted_next_close": 248.01105278304567,
-  "predicted_daily_return": -0.08687141121723414,
-  "estimated_daily_volatility": 0.01138223772808193,
+  "predicted_next_close": 248.01100925986177,
+  "predicted_daily_return": -0.08687157146115493,
+  "estimated_daily_volatility": 0.0113822530498226,
   "forecast_days": 30,
-  "final_day_5th_percentile": 15.768347066336625,
-  "final_day_50th_percentile": 17.622234221699454,
-  "final_day_95th_percentile": 19.94170853140178
+  "final_day_5th_percentile": 15.768261129533334,
+  "final_day_50th_percentile": 17.622141148622248,
+  "final_day_95th_percentile": 19.941606953122868
 }

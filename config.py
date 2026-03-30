@@ -4,7 +4,7 @@ from typing import List
 
 @dataclass
 class Config:
-    tickers: List[str] = field(default_factory=lambda: ["AAPL"])
+    tickers: List[str] = field(default_factory=lambda: ["AAPL", "TSLA", "NVDA"])
     start_date: str = "2019-01-01"
     end_date: str = "2026-01-01"
     sequence_length: int = 30

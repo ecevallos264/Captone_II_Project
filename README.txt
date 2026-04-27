@@ -1,44 +1,40 @@
-# Stock Market Prediction Dashboard
+Stock Market Prediction Dashboard
 
-## Project Overview
-
+Project Overview
 This project is a machine learning-based stock market prediction system designed to estimate short-term stock price movement using historical market data. The application combines data preprocessing, feature engineering, regression modeling, and visualization to generate predictions for selected stock tickers through an interactive dashboard.
 
-## Team Members
+Team Members
 
 * Gavin Greene
 * Erick Cevallos
 * Alexander Hernandez
 * Ryan Echevarria
 
-## Objectives
-
+Objectives
 The goal of this project is to improve stock price forecasting by integrating multiple financial indicators and evaluating how additional features affect prediction accuracy.
 
-## Features
+Features
 
 * Historical stock data retrieval
 * Feature engineering using:
-
-  * Closing Price
-  * Trading Volume
-  * Moving Averages
+  Closing Price
+  Trading Volume
+  Moving Averages
 * Regression-based prediction model
 * Confidence interval visualization
 * Interactive dashboard for ticker selection
 * Batch testing across multiple stocks
 
-## Models Used
-
-### Baseline Model
+Models Used
+Baseline Model:
 
 * Linear Regression
 
-### Additional Model Exploration
+Additional Model Exploration:
 
-* LSTM (Long Short-Term Memory) for sequential forecasting
+* LSTM (Long Short-Term Memory)
 
-## Technologies Used
+Technologies Used
 
 * Python
 * Pandas
@@ -48,15 +44,15 @@ The goal of this project is to improve stock price forecasting by integrating mu
 * Plotly / Dashboard tools
 * Docker
 
-## Project Structure
+Project Structure
 
-* `data/` → raw and processed stock data
-* `models/` → saved model files
-* `notebooks/` → experimentation notebooks
-* `dashboard/` → visualization interface
-* `scripts/` → preprocessing and prediction scripts
+* data/ : raw and processed stock data
+* models/ : saved model files
+* notebooks/ : experimentation notebooks
+* dashboard/ : visualization interface
+* scripts/ : preprocessing and prediction scripts
 
-## Workflow
+Workflow
 
 1. Retrieve historical stock market data
 2. Clean and preprocess dataset
@@ -65,34 +61,33 @@ The goal of this project is to improve stock price forecasting by integrating mu
 5. Evaluate using MAE, RMSE, and R²
 6. Visualize predictions against actual values
 
-## Evaluation Metrics
+Evaluation Metrics
 
 * Mean Absolute Error (MAE)
 * Mean Squared Error (MSE)
 * Root Mean Squared Error (RMSE)
 * R² Score
 
-## Current Improvements
+Current Improvements
 
 * Added Trading Volume as a predictive feature
 * Added Moving Average indicators
 * Improved batch retrieval pipeline
 * Dockerized deployment for reproducibility
 
-## Future Work
+Future Work
 
 * Expand LSTM implementation
 * Add more technical indicators
 * Improve live API integration
 * Increase forecasting horizon
 
-## How to Run
+How to Run
 
 1. Install dependencies
 2. Run preprocessing script
 3. Train model
 4. Launch dashboard
 
-## Notes
-
-This project was developed as part of a capstone course focused on machine learning implementation and team collaboration.
+Notes
+This project was developed as part of a capstone course focused on practical machine learning implementation and team collaboration.
